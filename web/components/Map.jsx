@@ -45,7 +45,7 @@ const Mapy = () =>{
   const [{ data: events, fetching, error }] = useFindMany(api.event)
   return(
     <>
-      <LoadScript googleMapsApiKey="AIzaSyCbfTJUnQHrGKeqSnN5SO4DkBmbW4xQyx0">
+      <LoadScript googleMapsApiKey="key">
       <GoogleMap
         mapContainerStyle={mapContainerStyle}
         zoom={10}
